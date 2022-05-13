@@ -1,0 +1,115 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header {
+  width: 100%;
+  height: 150px;
+  border: solid 3px black;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  float: left;
+  width: 16.66%;
+  list-style-type: none;
+}
+
+.playSpace {
+  float: left;
+  width: 100%;
+  height: 100%;
+  border: 3px solid black;
+}
+
+section {
+  float: left;
+  width: 20%;
+  height: 320px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid black;
+}
+
+/* .flip{
+  transform: rotateY(180deg);
+} */
+
+.mlb {
+  background-image: url('../img/mlbLogo2.png');
+}
+
+/******************************************
+/* Team Logos
+/*******************************************/
+
+.arizona, .card0 {
+  background-image: url('../img/arizonaLogo.png');
+}
+
+.baltimore, .card1 {
+  background-image: url('../img/baltimoreLogo.png');
+}
+
+.boston, .card2 {
+  background-image: url('../img/bostonLogo.png');
+}
+
+.colorado, .card3 {
+  background-image: url('../img/coloradoLogo.png');
+}
+
+.losAngelesDodg, .card4 {
+  background-image: url('../img/losAngelesDodgLogo.png');
+}
+
+.newYorkYank, .card5 {
+  background-image: url('../img/newYorkYankLogo.png');
+}
+
+.sanDiego, .card6 {
+  background-image: url('../img/sanDiegoLogo.png');
+}
+
+.sanFrancisco, .card7 {
+  background-image: url('../img/sanFranciscoLogo.png');
+}
+
+.tampaBay, .card8 {
+  background-image: url('../img/tampaBayLogo.png');
+}
+
+.toronto, .card9 {
+  background-image: url('../img/torontoLogo.png');
+}
+
+/*
+footer{
+  width: 100%;
+  height: 150px;
+  border: solid 3px black;
+  text-align: center;
+}
+*/
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
