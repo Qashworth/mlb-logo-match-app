@@ -5,15 +5,17 @@
 /* Box Model Hack */
 *{
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  text-align: center;
 }
-
-/******************************************
-/* LAYOUT
-/*******************************************/
 
 header {
   width: 100%;
-  height: 150px;
+  height: 75px;
   border: solid 3px black;
   text-align: center;
 }
@@ -41,75 +43,225 @@ li {
 }
 
 section {
+  width: 25%;
+  height: 250px;
   float: left;
-  width: 20%;
-  height: 320px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  overflow: auto;
   border: 2px solid black;
+  
 }
 
-/* .flip{
-  transform: rotateY(180deg);
-} */
-
-.mlb {
-  background-image: url('../img/mlbLogo2.png');
+div {
+width: 100%;
+height: 100%;
+padding: 0;
 }
 
-/******************************************
-/* Team Logos
-/*******************************************/
-
-.arizona, .card0 {
-  background-image: url('../img/arizonaLogo.png');
+div + a img {
+position: fixed;
+right: 25px;
+top: 48%;
+width: 20%;
+padding: 20px;
+border: 1px solid black;
+border-radius: 100px;
+background-image: linear-gradient(to right, blue , red );
 }
 
-.baltimore, .card1 {
-  background-image: url('../img/baltimoreLogo.png');
+aside img {
+position: fixed;
+left: 25px;
+top: 28%;
+width: 20%;
+padding: 20px;
+border: 1px solid black;
+border-radius: 100px;
+background-image: linear-gradient(to right, blue , red );
 }
 
-.boston, .card2 {
-  background-image: url('../img/bostonLogo.png');
+#magic {
+top: 60%;
 }
 
-.colorado, .card3 {
-  background-image: url('../img/coloradoLogo.png');
+button {
+display: none;
+}
+.card0, .card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10, .card11, .card12, .card13, .card14, .card15, .card16, .card17, .card18, .card19, .card20, .card21, .card22, .card23, .card24, .card25, .card26, .card27, .card28, .card29, .flip {
+background-size: contain;
+background-repeat: no-repeat;
+transform-style: preserve-3d;
+transition: all .4s linear;
+}
+.card0 {
+background-image: url('../img/teamLogos/Arizona_Diamondbacks.png');
 }
 
-.losAngelesDodg, .card4 {
-  background-image: url('../img/losAngelesDodgLogo.png');
+.card1 {
+  background-image: url('../img/teamLogos/Atlanta_Braves.png');
+  }
+
+.card2 {
+background-image: url('../img/teamLogos/Baltimore_Orioles.png');
 }
 
-.newYorkYank, .card5 {
-  background-image: url('../img/newYorkYankLogo.png');
+.card3 {
+background-image: url('../img/teamLogos/Boston_Redsox.png');
 }
 
-.sanDiego, .card6 {
-  background-image: url('../img/sanDiegoLogo.png');
+.card4 {
+background-image: url('../img/teamLogos/Chicago_Cubs.png');
 }
 
-.sanFrancisco, .card7 {
-  background-image: url('../img/sanFranciscoLogo.png');
+.card5 {
+background-image: url('../img/teamLogos/Chicago_White_Sox.png');
 }
 
-.tampaBay, .card8 {
-  background-image: url('../img/tampaBayLogo.png');
+.card6 {
+background-image: url('../img/teamLogos/Cincinnati_Reds.png');
 }
 
-.toronto, .card9 {
-  background-image: url('../img/torontoLogo.png');
+.card7 {
+background-image: url('../img/teamLogos/Cleveland_Guardians.png');
 }
 
-/*
+.card8 {
+background-image: url('../img/teamLogos/Colorado_Rockies.png');
+}
+
+.card9 {
+background-image: url('../img/teamLogos/Detroit_Tigers.png');
+}
+
+.card10 {
+background-image: url('../img/teamLogos/Houston_Astros.png');
+
+}
+
+.card11 {
+background-image: url('../img/teamLogos/KansasCity_Royals.png');
+}
+
+.card12 {
+background-image: url('../img/teamLogos/LosAngeles_Angels.png');
+}
+
+.card13 {
+background-image: url('../img/teamLogos/LosAngeles_Dodgers.png');
+}
+
+.card14 {
+background-image: url('../img/teamLogos/Miami_Marlins.png');
+}
+
+.card15 {
+background-image: url('../img/teamLogos/Milwaukee_Brewers.png');
+}
+
+.card16 {
+background-image: url('../img/teamLogos/Minnesota_Twins.png');
+}
+
+.card17 {
+background-image: url('../img/teamLogos/NewYork_Mets.png');
+}
+
+.card18 {
+background-image: url('../img/teamLogos/NewYork_Yankees.png');
+}
+
+.card19 {
+background-image: url('../img/teamLogos/Oakland_Athletics.png');
+}
+
+.card20 {
+background-image: url('../img/teamLogos/Philadelphia_Phillies.png');
+}
+
+.card21 {
+background-image: url('../img/teamLogos/Pittsburgh_Pirates.png');
+}
+
+.card22 {
+background-image: url('../img/teamLogos/SanDiego_Padres.png');
+}
+
+.card23 {
+background-image: url('../img/teamLogos/SanFrancisco_Giants.png');
+}
+
+.card24 {
+background-image: url('../img/teamLogos/Seattle_Mariners.png');
+}
+
+.card25 {
+background-image: url('../img/teamLogos/StLouis_Cardinals.png');
+}
+
+.card26 {
+background-image: url('../img/teamLogos/TampaBay_Rays.png');
+}
+
+.card27 {
+background-image: url('../img/teamLogos/Texas_Rangers.png');
+}
+
+.card28 {
+background-image: url('../img/teamLogos/Toronto_Blue_Jays.png');
+}
+
+.card29 {
+background-image: url('../img/teamLogos/Washington_Nationals.png');
+}
+
+.flip{
+background-image: url('../img/mlbLogo.png');
+}
+
 footer{
-  width: 100%;
-  height: 150px;
+  display: inline-block;
+  width: calc(100% - 900px);
+  min-width: 150px;
   border: solid 3px black;
-  text-align: center;
 }
-*/
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+
+@media screen and (max-width: 1000px){
+section{
+  width: 16.66vw;
+  height: 25vh;
+}
+}
+
+@media screen and (max-width: 500px){
+section{
+  width: 25vw;
+  height: 16.5vh;
+}
+}
+
+h2 {
+  background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%);
+  -webkit-text-fill-color: transparent;
+  color: #fff;
+font-family: 'Playfair Display', serif;
+  position: relative;
+text-transform: uppercase;
+font-size: 15rem;
+margin: 0;
+font-weight: 400;
+}
+
+h2:after {
+  background: none;
+  content: attr(data-heading);
+  left: 0;
+top: 0;
+  z-index: -1;
+  position: absolute;
+  text-shadow:
+  -1px 0 1px #c6bb9f,
+  0 1px 1px #c6bb9f,
+  5px 5px 10px rgba(0, 0, 0, 0.4),
+  -5px -5px 10px rgba(0, 0, 0, 0.4);
+}
