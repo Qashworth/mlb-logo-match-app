@@ -4,53 +4,45 @@
 
 /* Box Model Hack */
 *{
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  text-align: center;
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+text-align: center;
 }
 
 header {
-  width: 100%;
-  height: 75px;
-  border: solid 3px black;
-  text-align: center;
+width: 100%;
+height: 75px;
+border: solid 3px black;
+text-align: center;
 }
 
 main {
-  width: 100%;
+width: 100%;
 }
 
 img {
-  width: 100%;
-  height: 100%;
+width: 100%;
+height: 100%;
 }
 
 li {
-  float: left;
-  width: 16.66%;
-  list-style-type: none;
-}
-
-.playSpace {
-  float: left;
-  width: 100%;
-  height: 100%;
-  border: 3px solid black;
+float: left;
+width: 16.66%;
+list-style-type: none;
 }
 
 section {
-  width: 25%;
-  height: 250px;
-  float: left;
-  background-size: contain;
-  background-repeat: no-repeat;
-  overflow: auto;
-  border: 2px solid black;
-  
+width: 25%;
+height: 250px;
+float: left;
+background-size: contain;
+background-repeat: no-repeat;
+overflow: auto;
+border: 2px solid black; 
 }
 
 div {
@@ -88,130 +80,130 @@ top: 60%;
 button {
 display: none;
 }
-.card0, .card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10, .card11, .card12, .card13, .card14, .card15, .card16, .card17, .card18, .card19, .card20, .card21, .card22, .card23, .card24, .card25, .card26, .card27, .card28, .card29, .flip {
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10, .card11, .card12, .card13, .card14, .card15, .card16, .card17, .card18, .card19, .card20, .card21, .card22, .card23, .card24, .card25, .card26, .card27, .card28, .card29, .card30, .flip {
 background-size: contain;
 background-repeat: no-repeat;
 transform-style: preserve-3d;
 transition: all .4s linear;
 }
-.card0 {
+.card1 {
 background-image: url('../img/teamLogos/Arizona_Diamondbacks.png');
 }
 
-.card1 {
-  background-image: url('../img/teamLogos/Atlanta_Braves.png');
-  }
-
 .card2 {
-background-image: url('../img/teamLogos/Baltimore_Orioles.png');
+background-image: url('../img/teamLogos/Atlanta_Braves.png');
 }
 
 .card3 {
-background-image: url('../img/teamLogos/Boston_Redsox.png');
+background-image: url('../img/teamLogos/Baltimore_Orioles.png');
 }
 
 .card4 {
-background-image: url('../img/teamLogos/Chicago_Cubs.png');
+background-image: url('../img/teamLogos/Boston_Redsox.png');
 }
 
 .card5 {
-background-image: url('../img/teamLogos/Chicago_White_Sox.png');
+background-image: url('../img/teamLogos/Chicago_Cubs.png');
 }
 
 .card6 {
-background-image: url('../img/teamLogos/Cincinnati_Reds.png');
+background-image: url('../img/teamLogos/Chicago_White_Sox.png');
 }
 
 .card7 {
-background-image: url('../img/teamLogos/Cleveland_Guardians.png');
+background-image: url('../img/teamLogos/Cincinnati_Reds.png');
 }
 
 .card8 {
-background-image: url('../img/teamLogos/Colorado_Rockies.png');
+background-image: url('../img/teamLogos/Cleveland_Guardians.png');
 }
 
 .card9 {
-background-image: url('../img/teamLogos/Detroit_Tigers.png');
+background-image: url('../img/teamLogos/Colorado_Rockies.png');
 }
 
 .card10 {
+background-image: url('../img/teamLogos/Detroit_Tigers.png');
+}
+
+.card11 {
 background-image: url('../img/teamLogos/Houston_Astros.png');
 
 }
 
-.card11 {
+.card12 {
 background-image: url('../img/teamLogos/KansasCity_Royals.png');
 }
 
-.card12 {
+.card13 {
 background-image: url('../img/teamLogos/LosAngeles_Angels.png');
 }
 
-.card13 {
+.card14 {
 background-image: url('../img/teamLogos/LosAngeles_Dodgers.png');
 }
 
-.card14 {
+.card15 {
 background-image: url('../img/teamLogos/Miami_Marlins.png');
 }
 
-.card15 {
+.card16 {
 background-image: url('../img/teamLogos/Milwaukee_Brewers.png');
 }
 
-.card16 {
+.card17 {
 background-image: url('../img/teamLogos/Minnesota_Twins.png');
 }
 
-.card17 {
+.card18 {
 background-image: url('../img/teamLogos/NewYork_Mets.png');
 }
 
-.card18 {
+.card19 {
 background-image: url('../img/teamLogos/NewYork_Yankees.png');
 }
 
-.card19 {
+.card20 {
 background-image: url('../img/teamLogos/Oakland_Athletics.png');
 }
 
-.card20 {
+.card21 {
 background-image: url('../img/teamLogos/Philadelphia_Phillies.png');
 }
 
-.card21 {
+.card22 {
 background-image: url('../img/teamLogos/Pittsburgh_Pirates.png');
 }
 
-.card22 {
+.card23 {
 background-image: url('../img/teamLogos/SanDiego_Padres.png');
 }
 
-.card23 {
+.card24 {
 background-image: url('../img/teamLogos/SanFrancisco_Giants.png');
 }
 
-.card24 {
+.card25 {
 background-image: url('../img/teamLogos/Seattle_Mariners.png');
 }
 
-.card25 {
+.card26 {
 background-image: url('../img/teamLogos/StLouis_Cardinals.png');
 }
 
-.card26 {
+.card27 {
 background-image: url('../img/teamLogos/TampaBay_Rays.png');
 }
 
-.card27 {
+.card28 {
 background-image: url('../img/teamLogos/Texas_Rangers.png');
 }
 
-.card28 {
+.card29 {
 background-image: url('../img/teamLogos/Toronto_Blue_Jays.png');
 }
 
-.card29 {
+.card30 {
 background-image: url('../img/teamLogos/Washington_Nationals.png');
 }
 

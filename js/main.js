@@ -27,7 +27,7 @@ let Match = {
         Match.randomArray2.push(Math.floor(Math.random()*6))
         Match.randomArray2 = [...new Set(Match.randomArray2)]
       }
-      let offset = Math.ceil(29*Math.random())
+      let offset = Math.ceil(24*Math.random())
       Match.cardsArray = Match.randomArray.concat(Match.randomArray2)
       Match.cardsArray.forEach((x,i)=>{document.querySelectorAll('section')[i].classList=`card${x+offset} flip`})
       console.log(Match.cardsArray)
