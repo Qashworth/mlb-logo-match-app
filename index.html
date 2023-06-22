@@ -10,37 +10,6 @@
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
-		<script type="text/javascript" src="https://www.datadoghq-browser-agent.com/datadog-logs-v4.js"></script>
-		<script>
-		  window.DD_LOGS && DD_LOGS.init({
-				clientToken: 'pub3e8c9084d61ae4da58e630540fc9135b',
-				site: 'datadoghq.com',
-				service: 'quins-site',
-				env: 'prod',
-				// Specify a version number to identify the deployed version of your application in Datadog 
-				version: '1.0.10',
-				forwardErrorsToLogs: true,
-				sampleRate: 100,
-				forwardConsoleLogs: 'all',
-			})
-		</script>
-		<script type="text/javascript" src="https://www.datadoghq-browser-agent.com/datadog-rum-v4.js"></script>
-		<script>
-			window.DD_RUM && window.DD_RUM.init({
-				clientToken: 'pub7e9e45064e6a6cd3b61ca90da6ef3f3e',
-				applicationId: '727237b4-dd0e-4636-93e5-65490ed11b0a',
-				site: 'datadoghq.com',
-				service: 'mlb-logo-app',
-				env: 'prod',
-				// Specify a version number to identify the deployed version of your application in Datadog 
-				version: '1.0.10',
-				sampleRate: 100,
-				premiumSampleRate: 100,
-				trackInteractions: true,
-				defaultPrivacyLevel: 'mask-user-input',
-			});
-			window.DD_RUM && window.DD_RUM.startSessionReplayRecording();
-		</script>
 	</head>
 	<body>
 		<header>
